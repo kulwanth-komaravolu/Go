@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-type IntSlice []int
-
 func (s *IntSlice) BubbleSort() {
 	arr := *s
 	if len(arr) <= 1 {
